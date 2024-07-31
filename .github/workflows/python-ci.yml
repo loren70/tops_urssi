@@ -16,7 +16,7 @@ jobs:
      python-version: 3.11
      
   - name: install dependencies
-    run: python -m pip install --upgrade pip && install pytest
+    run: python -m pip install --upgrade pip && pip install pytest
     
   - name: Test code with pytest
     run: pytest
